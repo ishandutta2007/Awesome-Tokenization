@@ -1,11 +1,22 @@
-# Awesome-Tokenization
-## Tokenization in AI: Evolution, Variants, Types, & Applications
+# Awesome-Tokenization 🪙
 
-Tokenization is the foundational preprocessing step in Artificial Intelligence and Natural Language Processing (NLP). It converts raw, continuous strings of text, code, or multimodal data bytes into discrete, structural units called "tokens." These tokens are mapped to numerical indices (IDs) within a fixed vocabulary matrix, allowing mathematical neural network layers to process human communication. Over the history of AI, tokenization has evolved from simple punctuation-splitting rules to complex, data-driven subword compression algorithms and unified multimodal byte streams.
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Tokenization Banner" width="100%" />
+
+  <br><br>
+
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-Tokenization/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a><a href="https://github.com/ishandutta2007/Awesome-Tokenization/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Tokenization?style=flat-square" alt="License"/></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</div>
+
+## 📌 Tokenization in AI: Evolution, Variants, Types, & Applications
+
+Tokenization is the foundational preprocessing step in **Artificial Intelligence (AI)**, **Machine Learning (ML)**, and **Natural Language Processing (NLP)**. It converts raw, continuous strings of text, programming code, or multimodal data bytes into discrete, structural units called **"tokens."** These tokens are mapped to numerical indices within a fixed vocabulary matrix, allowing mathematical neural network layers (like Transformers) to process human communication. 
+
+Over the history of AI, tokenization has evolved from simple punctuation-splitting rules to complex, data-driven subword compression algorithms (like BPE, WordPiece, and SentencePiece) and unified multimodal byte streams. This repository acts as a curated catalog of the evolution, tooling, challenges, and applications of tokenization.
 
 ---
 
-## 1. The Chronological Evolution
+## 1. ⏳ The Chronological Evolution
 
 The technical progression of tokenization reflects a constant push away from rigid, language-dependent grammatical rules toward statistical, language-agnostic data compression systems.
 
@@ -24,7 +35,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Subword Variants
+## 2. 🧠 Core Functional & Subword Variants
 
 Subword tokenization is dominated by three major statistical algorithms, each processing sequence aggregation and vocabulary boundaries differently.
 
@@ -36,7 +47,7 @@ Subword tokenization is dominated by three major statistical algorithms, each pr
 
 ---
 
-## 3. Implementation Frameworks & Tooling Types
+## 3. 🛠️ Implementation Frameworks & Tooling Types
 
 Depending on the engine abstraction layer and operational requirements, AI systems deploy tokenizers using distinct architecture configurations.
 
@@ -48,7 +59,7 @@ Depending on the engine abstraction layer and operational requirements, AI syste
 
 ---
 
-## 4. Production Engineering Challenges & Mitigations
+## 4. ⚡ Production Engineering Challenges & Mitigations
 
 Deploying and scaling tokenization profiles inside live production pipelines introduces severe memory, prompt budget, and computational efficiency constraints.
 
@@ -59,7 +70,7 @@ Deploying and scaling tokenization profiles inside live production pipelines int
 
 ---
 
-## 5. Modern Cross-Domain Applications
+## 5. 🌐 Modern Cross-Domain Applications
 
 | Application | Year First Used | First Used Paper | Application Details |
 | :--- | :--- | :--- | :--- |
