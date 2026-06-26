@@ -78,3 +78,17 @@ Deploying and scaling tokenization profiles inside live production pipelines int
 | [**Abstract Syntax Tree (AST) Source Code Processing**](details/ast-source-code-processing.md) | 2020 | [Feng et al. (2020)](https://arxiv.org/abs/2002.08155) | Powers code generation engines. Specialized tokenizers preserve formatting primitives, indentation tabs (`\t`), and programming keywords (`def`, `async`, `try`), preventing code loops from corrupting during structural text compression phases. |
 | [**Bioinformatics & Peptide Chain Ingestion**](details/bioinformatics-peptide-chain.md) | 2020 | [Elnaggar et al. (2020)](https://arxiv.org/abs/2007.06225) | Maps genomic and macromolecular sequences. Subword BPE logic is applied to raw strings of amino acids (A, C, G, T) or complex protein sequences, compressing frequent chemical motifs into higher-order structural tokens to track biological mutations efficiently. |
 
+---
+
+## Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Tokenization&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Tokenization&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Tokenization&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Tokenization&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+
+
