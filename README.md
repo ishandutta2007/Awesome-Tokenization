@@ -9,8 +9,12 @@ Tokenization is the foundational preprocessing step in Artificial Intelligence a
 
 The technical progression of tokenization reflects a constant push away from rigid, language-dependent grammatical rules toward statistical, language-agnostic data compression systems.
 
-[Word & Character Splitting (Pre-2018)] ----> [Subword Tokenization (BPE/WordPiece)] ----> [Native Multimodal Byte-Streams (2024+)](Out-of-Vocabulary Bottlenecks)               (The Transformer Revolution)              (Unified Text, Vision, & Audio Maps)
-
+```mermaid
+flowchart LR
+    A["Word & Character Splitting (Pre-2018)<br/>(Out-of-Vocabulary Bottlenecks)"]
+    --> B["Subword Tokenization (BPE/WordPiece)<br/>(The Transformer Revolution)"]
+    --> C["Native Multimodal Byte-Streams (2024+)<br/>(Unified Text, Vision, & Audio Maps)"]
+```
 
 *   **The Word & Character Splitting Era (Traditional NLP, Pre-2018)**
     *   *Concept:* Models relied on rule-based regular expressions (like splitting text on spaces and punctuation symbols) or single-character pipelines.
